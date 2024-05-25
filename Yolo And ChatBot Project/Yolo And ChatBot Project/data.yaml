@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['african_elephant-endangered', 'amur_leopard-endangered', 'arctic_fox-endangered', 'asian_elephant-endangered', 'cheetah-endangered', 'jaguar_not-endangered', 'killer_whale-endangered', 'lion-endangered', 'orangutan-endangered', 'panther-endangered', 'rhino-endangered', 'shark-endangered']
+
+roboflow:
+  workspace: truc-ggd0x
+  project: cdio-machinelearning
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/truc-ggd0x/cdio-machinelearning/dataset/10
